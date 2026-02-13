@@ -27,11 +27,11 @@ export default function RootLayout({ children }) {
           <LightRays
             raysOrigin="top-center"
             raysColor="#ffffff"
-            raysSpeed={1}
-            lightSpread={0.5}
+            raysSpeed={0.2}
+            lightSpread={0.8}
             rayLength={3}
             followMouse={true}
-            mouseInfluence={0.1}
+            mouseInfluence={0.02}
             noiseAmount={0}
             distortion={0}
             className="custom-rays"
