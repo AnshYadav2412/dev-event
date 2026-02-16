@@ -5,7 +5,7 @@ const ExploreBtn = () => {
   return (
     <button type="button" id="explore-btn" className="mt-7 mx-auto">
       <a href="#events">
-        Explore Button
+        Explore
         <img
           src="/icons/arrow-down.svg"
           alt="arrow-down"
